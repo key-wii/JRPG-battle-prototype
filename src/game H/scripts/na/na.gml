@@ -1,0 +1,3 @@
+function na() {
+	//does nothing
+}

@@ -1,0 +1,1 @@
+draw_9slice(temp_box_left, temp_box_top, temp_box_w, temp_box_h, spr_box, 0);

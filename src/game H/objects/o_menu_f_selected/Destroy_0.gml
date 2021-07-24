@@ -1,0 +1,1 @@
+if (leaveFight) game_end();
