@@ -57,7 +57,6 @@
     {"id":{"name":"snd_enemy_win","path":"sounds/snd_enemy_win/snd_enemy_win.yy",},"order":7,},
     {"id":{"name":"o_menu_f","path":"objects/o_menu_f/o_menu_f.yy",},"order":0,},
     {"id":{"name":"shrink_player","path":"scripts/shrink_player/shrink_player.yy",},"order":6,},
-    {"id":{"name":"fits_cg_pareo","path":"sprites/fits_cg_pareo/fits_cg_pareo.yy",},"order":15,},
     {"id":{"name":"spr_cursor","path":"sprites/spr_cursor/spr_cursor.yy",},"order":0,},
     {"id":{"name":"o_data_enemy_test3","path":"objects/o_data_enemy_test3/o_data_enemy_test3.yy",},"order":1,},
     {"id":{"name":"reset_cam_vals","path":"scripts/reset_cam_vals/reset_cam_vals.yy",},"order":0,},
@@ -118,7 +117,7 @@
   ],
   "IncludedFiles": [],
   "MetaData": {
-    "IDEVersion": "2.3.2.560",
+    "IDEVersion": "2.3.3.574",
   },
   "resourceVersion": "1.4",
   "name": "game H",

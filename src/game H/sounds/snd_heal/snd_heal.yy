@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_heal.wav",
-  "duration": 0.440374,
+  "duration": 0.435374,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

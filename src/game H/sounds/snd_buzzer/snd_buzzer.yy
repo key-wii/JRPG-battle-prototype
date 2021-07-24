@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_buzzer.wav",
-  "duration": 0.35983,
+  "duration": 0.35483,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

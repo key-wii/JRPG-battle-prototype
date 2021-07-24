@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_battle_start.wav",
-  "duration": 2.203957,
+  "duration": 2.198957,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

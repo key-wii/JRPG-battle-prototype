@@ -11,7 +11,7 @@
     "path": "audiogroups/audiogroup_default",
   },
   "soundFile": "snd_enemy_win.wav",
-  "duration": 1.361009,
+  "duration": 1.356009,
   "parent": {
     "name": "Sounds",
     "path": "folders/Sounds.yy",

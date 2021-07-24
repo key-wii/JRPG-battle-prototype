@@ -9,11 +9,11 @@
 //  7: description of command (string)
 items = ds_list_create();
 
-item0[0] = "lotion";
+item0[0] = "cheese";
 item0[1] = true;
 	texts0 = ds_list_create();
-		text00[0] = "You slather some lotion";
-		text00[1] = "on your face";
+		text00[0] = "You eat the cheese";
+		text00[1] = "It tastes horrible";
 	ds_list_add(texts0, text00);
 item0[2] = texts0;
 item0[3] = 0;
