@@ -8,7 +8,7 @@ if (temp_box_w == 0 &&
 	temp_box_w == 0 &&
 	temp_box_w == 0) {
 		o_menu_f.selection = false;
-		heal_player(.5);
+		if (!global.win) heal_player(.5);
 		o_controller_f.shrunk = false;
 		instance_destroy();
 }

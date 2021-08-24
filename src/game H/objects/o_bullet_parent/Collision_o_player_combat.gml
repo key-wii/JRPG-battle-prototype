@@ -1,7 +1,7 @@
 with (other) {
 	hp -= 1;
 	image_index = (max_hp - hp);
-	if (hp <= 0) room_restart();
+	if (hp <= 0) die();
 }
 sound_machine(snd_hurt);
 with (obj_camera_controller) {

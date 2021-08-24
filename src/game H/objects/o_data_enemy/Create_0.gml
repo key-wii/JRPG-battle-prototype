@@ -1,5 +1,6 @@
-yy = 0;
-up = false;
+//yy = 0;
+wiggle_h = 0;
+up = true;
 wait = false;
 
 Names = ds_list_create();
@@ -14,4 +15,7 @@ dead = ds_list_create();
 hp[| 0] = max_hp[| 0];*/
 
 x = room_width / 2;
-y = 0 + (room_height / 3.75);
+//y = 0 + (room_height / 1.95);
+y = 0 + (room_height / 2);
+
+alarm_set(11, 1);

@@ -5,8 +5,8 @@ Names_copy[| 0] = "Default Box of Placeholding";
 max_hp[| 0] = 2;
 hp[| 0] = max_hp[| 0];
 wet[| 0] = false;
-sprites[| 0] = spr_enemy;
-sprites_win[| 0] = spr_enemy_win;
+sprites[| 0] = spr_enemy_c;
+sprites_win[| 0] = spr_enemy_c_win;
 dead[| 0] = false;
 
 enemies = ds_list_size(Names);

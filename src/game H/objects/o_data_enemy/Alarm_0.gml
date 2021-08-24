@@ -1,4 +1,4 @@
-if (yy > 0) up = false
-else up = true;
+if (wiggle_h == 0) up = true;
+else up = false;
 
 wait = false;

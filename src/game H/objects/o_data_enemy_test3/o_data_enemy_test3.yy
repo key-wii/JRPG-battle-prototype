@@ -6,7 +6,7 @@
   "solid": false,
   "visible": true,
   "spriteMaskId": null,
-  "persistent": false,
+  "persistent": true,
   "parentObjectId": {
     "name": "o_data_enemy",
     "path": "objects/o_data_enemy/o_data_enemy.yy",
@@ -30,8 +30,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "data structures",
-    "path": "folders/Objects/data structures.yy",
+    "name": "enemies",
+    "path": "folders/Objects/data structures/enemies.yy",
   },
   "resourceVersion": "1.0",
   "name": "o_data_enemy_test3",
