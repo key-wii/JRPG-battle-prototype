@@ -19,6 +19,8 @@ sprites_win[| 1] = spr_enemy_win;
 dead[| 1] = false;
 
 enemies = ds_list_size(Names);
+flavor_text[0] = "flavor text is cool";
+flavor_text[1] = "";
 
 atkOrder = 0; // 0: in number order (then loops), 1: random order, 
 
