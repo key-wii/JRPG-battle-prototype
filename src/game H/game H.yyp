@@ -1,5 +1,6 @@
 {
   "resources": [
+    {"id":{"name":"spr_enemy1","path":"sprites/spr_enemy1/spr_enemy1.yy",},"order":11,},
     {"id":{"name":"snd_cursor","path":"sounds/snd_cursor/snd_cursor.yy",},"order":0,},
     {"id":{"name":"o_audio_controller","path":"objects/o_audio_controller/o_audio_controller.yy",},"order":0,},
     {"id":{"name":"o_menu_f_selected","path":"objects/o_menu_f_selected/o_menu_f_selected.yy",},"order":3,},

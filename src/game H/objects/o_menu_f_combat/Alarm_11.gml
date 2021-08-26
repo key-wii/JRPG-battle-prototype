@@ -19,6 +19,9 @@ if (temp_box_w == 0 &&
 			}
 			charCount = 0;
 			textSound = 0;
+			
+			draw_flavortext = false;
+			alarm_set(0, 1);
 		}
 		if (!global.win) heal_player(.5);
 		o_controller_f.shrunk = false;

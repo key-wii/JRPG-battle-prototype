@@ -11,7 +11,7 @@ x = room_width / 2;
 y = room_height - (room_height / 16);
 
 
-
+draw_flavortext = true;
 
 var text_data = o_data_enemy.flavor_text;
 var i = 0;

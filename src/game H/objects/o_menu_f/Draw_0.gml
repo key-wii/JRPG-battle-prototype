@@ -49,7 +49,7 @@ for (button = 0; button < array_length(menu); button++) {
 
 draw_sprite(sprite_index, 0, (x + (cursor_pos - 1) * space) - (string_length(string(menu[cursor_pos])) * 10), y);*/
 
-if (selection) exit;
+if (selection || !draw_flavortext) exit;
 //Draw text box
 draw_set_halign(fa_middle);
 draw_set_valign(fa_middle);

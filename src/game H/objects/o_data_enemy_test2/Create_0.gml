@@ -5,7 +5,7 @@ Names_copy[| 0] = "Default Box of Placeholding";
 max_hp[| 0] = 2;
 hp[| 0] = max_hp[| 0];
 wet[| 0] = false;
-sprites[| 0] = spr_enemy;
+sprites[| 0] = spr_enemy1;
 sprites_win[| 0] = spr_enemy_win;
 dead[| 0] = false;
 
@@ -14,7 +14,7 @@ Names_copy[| 1] = "Default Box of Placeholding";
 max_hp[| 1] = 2;
 hp[| 1] = max_hp[| 1];
 wet[| 1] = false;
-sprites[| 1] = spr_enemy;
+sprites[| 1] = spr_enemy1;
 sprites_win[| 1] = spr_enemy_win;
 dead[| 1] = false;
 
