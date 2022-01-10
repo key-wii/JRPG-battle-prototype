@@ -1,17 +1,17 @@
 event_inherited();
 
-Names[| 0] = "Default Box of Placeholding";
-Names_copy[| 0] = "Default Box of Placeholding";
+Names[| 0] = "Lost Ghost";
+Names_copy[| 0] = "Lost Ghost";
 max_hp[| 0] = 2;
 hp[| 0] = max_hp[| 0];
 wet[| 0] = false;
-sprites[| 0] = spr_enemy;
+sprites[| 0] = spr_ghost;
 sprites_win[| 0] = spr_enemy_win;
 dead[| 0] = false;
 
 enemies = ds_list_size(Names);
-flavor_text[0] = "maximum flavor text length";
-flavor_text[1] = "maximum flavor text length";
+flavor_text[0] = "A distressed ghost looks";
+flavor_text[1] = "afraid to speak up";
 
 atkOrder = 0; // 0: in number order (then loops), 1: random order, 
 
@@ -27,31 +27,29 @@ turn = 0;
 //  7: description of command (string)
 acts = ds_list_create();
 
-act0[0] = "this is an act";
+act0[0] = "BECKON";
 act0[1] = true;
 	texts0 = ds_list_create();
-		text00[0] = "Maximum length of text line  :)";
-		text00[1] = "You just did... an act";
-		text01[0] = "You lookin real sussy";
-		text02[0] = "This is the last dialogue";
-		text02[1] = "-";
-		text02[2] = "It is not much, but it is mine";
-	ds_list_add(texts0, text00, text01, text02);
+		text00[0] = "You gesture for the";
+		text00[1] = "ghost to come hither";
+		text00[2] = "but it shudders at the attempt";
+		text01[0] = "You gesture again";
+		text01[1] = "but to no avail";
+	ds_list_add(texts0, text00, text01);
 act0[2] = texts0;
 act0[3] = 0;
 act0[4] = na;
 act0[5] = undefined;
 act0[6] = false;
-act0[7] = "Test";
+act0[7] = "n/a";
 
-act1[0] = "lick";
+act1[0] = "LICK";
 act1[1] = true;
 	texts1 = ds_list_create();
-		text10[0] = "You just licked a square";
-		text11[0] = "Why did you just lick a square?";
-		text12[0] = "Plese stop licking";
-		text12[1] = "It is unsanitary";
-	ds_list_add(texts1, text10, text11, text12);
+		text10[0] = "Your tongue phases through";
+		text10[1] = "the ghost; You feel nothing";
+		text10[2] = "Lost Ghost giggles in response";
+	ds_list_add(texts1, text10);
 act1[2] = texts1;
 act1[3] = 0;
 act1[4] = damage_enemy;
@@ -59,40 +57,44 @@ act1[5] = 1;
 act1[6] = false;
 act1[7] = "-1 HP";
 
-act2[0] = "meme";
+act2[0] = "BOO!";
 act2[1] = true;
 	texts2 = ds_list_create();
-		text20[0] = "You meme'd";
-		text21[0] = "You continue to meme";
-		text22[0] = "You meme a third time";
-	ds_list_add(texts2, text20, text21, text22);
+		text20[0] = "Before you can utter a";
+		text20[1] = "word the enemy is";
+		text20[2] = "already out of sight";
+	ds_list_add(texts2, text20);
 act2[2] = texts2;
 act2[3] = 0;
 act2[4] = damage_enemy;
-act2[5] = 2;
+act2[5] = 6;
 act2[6] = false;
-act2[7] = "-2 HP";
+act2[7] = "-6 HP";
 
-act3[0] = "eat slime";
+act3[0] = "GREET";
 act3[1] = true;
 	texts3 = ds_list_create();
-		text30[0] = "You taste some slime";
-		text31[0] = "Slime sure is tasty";
-		text32[0] = "Your tummy is filled with slime";
-	ds_list_add(texts3, text30, text31, text32);
+		text30[0] = "Before you can utter a";
+		text30[1] = "word the enemy is";
+		text30[2] = "already out of sight";
+	ds_list_add(texts3, text30);
 act3[2] = texts3;
 act3[3] = 0;
 act3[4] = damage_enemy;
-act3[5] = 6;
+act3[5] = 2;
 act3[6] = false;
-act3[7] = "-6 HP";
+act3[7] = "-2 HP";
 
-act4[0] = "menacing stare";
+act4[0] = "MENACING STARE";
 act4[1] = true;
 	texts4 = ds_list_create();
-		text40[0] = "Don't look at me like that";
-		text41[0] = "Stop looking at me like that...";
-		text42[0] = "Your stare has no power here";
+		text40[0] = "You lock eyes with Lost Ghost";
+		text40[1] = "This creates a STARING CONTEST";
+		text41[0] = "The STARING CONTEST rages on";
+		text41[1] = ". . . . . . . . . . . . . . .";
+		text41[2] = "     You blinked!     ";
+		text42[0] = "Lost Ghost looks unmoved by";
+		text42[1] = "its STARING CONTEST victory";
 	ds_list_add(texts4, text40, text41, text42);
 act4[2] = texts4;
 act4[3] = 0;
@@ -106,10 +108,10 @@ ds_list_add(acts, act0, act1, act2, act3, act4);
 
 actsWin = ds_list_create();
 
-actW0[0] = "vicory lap";
+actW0[0] = "SCRATCH HEAD";
 actW0[1] = true;
 	textsW0 = ds_list_create();
-		textW00[0] = "Get PWN'd!";
+		textW00[0] = "Yep... That happened";
 	ds_list_add(textsW0, textW00);
 actW0[2] = textsW0;
 actW0[3] = 0;
@@ -118,7 +120,7 @@ actW0[5] = 0;
 actW0[6] = false;
 actW0[7] = "";
 
-actW1[0] = "leave";
+actW1[0] = "LEAVE";
 actW1[1] = true;
 	textsW1 = ds_list_create();
 		textW10[0] = "You exit the scene";

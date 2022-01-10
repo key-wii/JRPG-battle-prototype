@@ -12,7 +12,7 @@ if (!wait) {
 	if (up) wiggle_h += .5;
 	else wiggle_h -= .5;
 	
-	if (wiggle_h == 30 || wiggle_h == 0) {
+	if (wiggle_h == wiggleMax || wiggle_h == 0) {
 		wait = true;
 		alarm_set(0, 6);
 	}

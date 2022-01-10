@@ -1,5 +1,6 @@
 //yy = 0;
 wiggle_h = 0;
+wiggleMax = 30;
 up = true;
 wait = false;
 
